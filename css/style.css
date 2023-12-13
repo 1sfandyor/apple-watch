@@ -62,6 +62,7 @@ img{
 /* BUTTON */
 .button{
   display: inline-block;
+  min-width: 260px;
   color: #fff;
   padding: 12px 38px;
   background-color: var(--primary-color);
@@ -280,6 +281,45 @@ img{
   box-shadow: 18px 0 0 0 #ddd,
               36px 0 0 0 #ddd;
 }
+
+
+/* PROMO SECTION */
+.promo {
+  padding: 70px 0;
+}
+
+.promo-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+/* RUNNERS SECTION */
+.runners {
+  padding-top: 240px;
+  padding-bottom: 240px;
+  background-image: url("../img/runners.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.runners-lead-cta {
+  margin-left: auto;
+}
+
+.runners-lead-cta .lead-cta-heading{
+  color: #fff;
+}
+
+.runners-lead-cta .lead-cta-text{
+  color: #fff;
+  border-left-color: #fff;
+}
+
 
 
 @media
